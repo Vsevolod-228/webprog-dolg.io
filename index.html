@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сыпков В.М. Веб-программирование долг</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="shortcut icon" href="img/rus.png">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+        <img src="img/cyberpunk.svg" alt="Киберпанк логотип">
+      <ul class="social header__social list-reset">
+        <li class="social__item"><a href="https://youtube.com/" class="social__link social__link--youtube" aria-label="Ютуб" target="_blank"></a></li>
+        <li class="social__item"><a href="https://vk.com/cbi4cbi4cbi4" class="social__link social__link--vk" aria-label="Вк" target="_blank"></a></li>
+        <li class="social__item"><a href="https://t.me/cbl4cbl4cbl4" class="social__link social__link--telegram" aria-label="Тг" target="_blank"></a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <!-- <h1 class="visually-hidden">Промо Киберпанк</h1> -->
+      <div class="swiper-container hero__slider swiper-no-swiping swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden">
+        <div class="swiper-wrapper" id="swiper-wrapper-b107927499953b871" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+        <div class="swiper-slide swiper-slide-next" style="background-image: url('img/11.jpg'); width: 1536px; opacity: 0; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;" role="group" aria-label="2 / 3" data-swiper-slide-index="1"></div><div class="swiper-slide swiper-slide-prev" style="background-image: url('img/12.jpg'); width: 1536px; opacity: 0; transform: translate3d(-1536px, 0px, 0px); transition-duration: 0ms;" role="group" aria-label="3 / 3" data-swiper-slide-index="2"></div><div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" style="background-image: url('img/13.jpg'); width: 1536px; opacity: 1; transform: translate3d(-3072px, 0px, 0px); transition-duration: 0ms;" role="group" aria-label="1 / 3" data-swiper-slide-index="0"></div></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      <div class="container hero__container">
+        <div class="hero-info corner-block">
+          <h2 class="hero-info__title">Доступно на всех платформах</h2>
+          <form action="https://grade.sfedu.ru/" target="_blank">
+          <button class="btn-reset hero-info__btn btn">Узнать больше</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <h2 class="site-title about__title">Найт-Сити изменит тебя навсегда!</h2>
+        <p class="about__descr site-descr">
+          <span class="site-highlighted">Cyberpunk 2077</span>
+           — приключенческая ролевая игра, действие которой происходит в мегаполисе
+          Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника
+          в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки
+          и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета
+          и всё, что тебя окружает.
+        </p>
+        <div class="about__images">
+          <div class="about__left">
+            <div class="about__image about__image--mini corner-block">
+              <img src="img/1.jpg">
+            </div>
+            <div class="about__image about__image--mini corner-block">
+              <img src="img/2.jpg">
+            </div>
+          </div>
+          <div class="about__image about__image--big corner-block">
+            <picture>
+              <source srcset="img/3-tablet.jpg" media="(max-width: 1024px)">
+              <img src="img/3.jpg" alt="Найт-сити 3">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="game">
+      <div class="container">
+        <h2 class="site-title game__title">Играй и выигрывай!</h2>
+        <p class="game__descr site-descr">
+          Играй в <span class="site-highlighted">Cyberpunk 2077</span> и получи возможность выиграть
+          консоль <span class="site-highlighted">Xbox Series</span> X или <span class="site-highlighted">Sony PlayStation 5!</span> Заполни
+          форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи!
+        </p>
+        <div class="game__content">
+          <form action="#" class="game__form form">
+            <input type="text" name="name" class="form__input" placeholder="Как тебя зовут?">
+            <input type="email" name="email" class="form__input" placeholder="Твой e-mail">
+            <label class="form-label">
+              <input type="file" class="form-label__file">
+              <span class="form-label__text">Прикрепить скриншот</span>
+              <span class="form-label__images">.png / .jpg / .pdf</span>
+            </label>
+            <button class="form__btn btn btn-reset">Отправить</button>
+            <label class="form__checkbox checkbox">
+              <input type="checkbox" class="checkbox__input">
+              <span class="checkbox__text">Согласен на обработку персональных данных</span>
+            </label>
+          </form>
+          <picture>
+            <source srcset="img/xbox-ps5-mobile.png" media="(max-width: 768px)">
+            <source srcset="img/xbox-ps5-tablet.png" media="(max-width: 1024px)">
+            <img src="img/xbox-ps5.png" alt="xbox" aria-hidden="true" class="game__image">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="hp">
+      <div class="container hp__container">
+        <div class="hp__left">
+          <img src="img/monitor.png" alt="Монитор hp" class="hp__image">
+          <div class="hp__logos">
+              <img src="img/hp.svg" alt="Логотип hp">
+              <img src="img/cyberpunk.svg" alt="Логотип Киберпанка">
+          </div>
+        </div>
+        <div class="hp__right">
+          <h2 class="site-title hp__title">
+            Полное погружение вместе с HP
+          </h2>
+          <p class="hp__descr">
+            Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора
+            с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай
+            реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!
+          </p>
+          <ul class="hp__list site-list list-reset">
+            <li class="hp__item site-list__item" style="background-image: url('img/paint.svg')">Яркие насыщенные цвета</li>
+            <li class="hp__item site-list__item" style="background-image: url('img/stars.svg')">Кристальная четкость изображения</li>
+            <li class="hp__item site-list__item" style="background-image: url('img/moves.svg')">Быстрые движения и плавный геймплей</li>
+          </ul>
+          <button class="hp__btn btn-reset btn">Подробнее</button>
+        </div>
+      </div>
+    </section>
+    <section class="buy">
+      <picture>
+        <source srcset="img/covers-mobile.jpg" media="(max-width: 768px)">
+        <source srcset="img/covers-tablet.jpg" media="(max-width: 1024px)">
+        <img src="img/covers.jpg" alt="Обложки" aria-hidden="true" class="buy__image">
+      </picture>
+      <div class="container buy__container">
+        <div class="buy__content">
+          <h2 class="site-title buy__title">Купить игру Cyberpunk 2077</h2>
+          <p class="site__subtitle">В комплект входит:</p>
+          <ul class="buy__list site-list list-reset">
+            <li class="buy__item site-list__item" style="background-image: url('img/circle.svg');">Футляр с игровыми дисками</li>
+            <li class="buy__item site-list__item" style="background-image: url('img/comments.svg');">Футляр с кодом для загрузки игры и
+              дисками (pc)</li>
+            <li class="buy__item site-list__item" style="background-image: url('img/images.svg');">Справочник с информацией об игровом
+              мире</li>
+          </ul>
+          <p class="site__subtitle">Выберите платформу:</p>
+          <ul class="platforms-list list-reset">
+            <li class="platforms-list__item"><a href="" class="platforms__link">
+              <img src="img/pc.svg" alt="Пк">
+            </a></li>
+            <li class="platforms-list__item"><a href="" class="platforms__link">
+              <img src="img/xbox.svg" alt="Иксбокс">
+            </a></li>
+            <li class="platforms-list__item"><a href="" class="platforms__link">
+              <img src="img/stadia.svg" alt="Стадия">
+            </a></li>
+            <li class="platforms-list__item"><a href="" class="platforms__link">
+              <img src="img/ps4.svg" alt="ПС 4">
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__container">
+        <div class="footer__left">
+            <img src="img/cyberpunk.svg" alt="лого киберпанка">
+            <img src="img/cd-projekt-red.svg" alt="лого CD Projekt RED">
+        </div>
+        <div class="footer__right">
+          <span class="footer__link">Лицензия</span>
+          <span class="footer__link">Политика конфеденциальности</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <small class="copyright">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</small>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
